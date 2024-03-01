@@ -1,21 +1,35 @@
 package edu.stud.ntnu.idatt2003_oblig3;
 
 import java.util.ArrayList;
+import java.util.Random;
 
-public class DeckOfCards {
-  private final char[] suit = { 'S', 'H', 'D', 'C' };
-  private final ArrayList<PlayingCard> deck = new ArrayList<>();
-
+public class DeckOfCards extends CardCollection {
   public DeckOfCards(){
+    super();
     for (int i = 0; i<4; i++) {
       for (int j=1; j<14; j++) {
-        deck.add(new PlayingCard(suit[i], j));
+        cardCollection.add(new PlayingCard(suit[i], j));
       }
     }
   }
 
+  public CardHand dealHand(int n) {
+    Random random = new Random();
+    CardHand temp = new CardHand();
+    if (n<1 || n>52) {
+      throw new IllegalArgumentException("Invalid amount of cards to deal");
+    }
+    for (int i=0; i<n; i++) {
+      PlayingCard randomCard = cardCollection.get(random.nextInt(53));
+      temp.addCard(randomCard);
+      removeCard(randomCard);
+    }
+    return temp;
+  }
+
   public static void main(String[] args) {
     DeckOfCards test = new DeckOfCards();
-    System.out.println(test.deck);
+    System.out.println(test.dealHand(6));
+    System.out.println(test);
   }
 }
