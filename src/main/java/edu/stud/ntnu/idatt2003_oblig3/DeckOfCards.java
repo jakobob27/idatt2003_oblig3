@@ -1,6 +1,5 @@
 package edu.stud.ntnu.idatt2003_oblig3;
 
-import java.util.ArrayList;
 import java.util.Random;
 
 public class DeckOfCards extends CardCollection {
@@ -8,7 +7,7 @@ public class DeckOfCards extends CardCollection {
     super();
     for (int i = 0; i<4; i++) {
       for (int j=1; j<14; j++) {
-        cardCollection.add(new PlayingCard(suit[i], j));
+        addCard(new PlayingCard(suit[i], j));
       }
     }
   }
@@ -20,7 +19,7 @@ public class DeckOfCards extends CardCollection {
       throw new IllegalArgumentException("Invalid amount of cards to deal");
     }
     for (int i=0; i<n; i++) {
-      PlayingCard randomCard = cardCollection.get(random.nextInt(53));
+      PlayingCard randomCard = getCard(random.nextInt(53));
       temp.addCard(randomCard);
       removeCard(randomCard);
     }
