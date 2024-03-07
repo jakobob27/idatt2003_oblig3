@@ -3,17 +3,14 @@ package edu.stud.ntnu.idatt2003_oblig3.controllers;
 import edu.stud.ntnu.idatt2003_oblig3.App;
 import edu.stud.ntnu.idatt2003_oblig3.models.CardHand;
 import edu.stud.ntnu.idatt2003_oblig3.models.DeckOfCards;
-import edu.stud.ntnu.idatt2003_oblig3.models.PlayingCard;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
-import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
-import javafx.scene.layout.HBox;
 
 public class MainSceneController {
 
@@ -46,22 +43,20 @@ public class MainSceneController {
 
   @FXML
   void checkHand(ActionEvent event) {
-    if (hand==null) {
+    if (hand == null) {
       return;
     }
     sumOfFaces.setText(String.valueOf(hand.sumOfFaces()));
     cardOfHearts.setText(hand.cardOfHearts());
     if (hand.flush()) {
       flush.setText("Yes");
-    }
-    else {
+    } else {
       flush.setText("No");
     }
 
     if (hand.queenOfSpades()) {
       queenOfSpades.setText("Yes");
-    }
-    else {
+    } else {
       queenOfSpades.setText("No");
     }
 

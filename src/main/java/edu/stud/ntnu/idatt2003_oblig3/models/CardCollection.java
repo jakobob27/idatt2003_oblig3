@@ -29,6 +29,7 @@ public abstract class CardCollection implements Iterable<PlayingCard> {
   public void removeCard(PlayingCard card) {
     cardCollection.remove(card);
   }
+
   public int size() {
     return cardCollection.size();
   }
