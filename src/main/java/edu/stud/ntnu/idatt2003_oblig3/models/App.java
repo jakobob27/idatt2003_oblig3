@@ -1,4 +1,4 @@
-package edu.stud.ntnu.idatt2003_oblig3;
+package edu.stud.ntnu.idatt2003_oblig3.models;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -10,8 +10,8 @@ import java.io.IOException;
 public class App extends Application {
   @Override
   public void start(Stage stage) throws IOException {
-    FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("hello-view.fxml"));
-    Scene scene = new Scene(fxmlLoader.load(), 320, 240);
+    FXMLLoader fxmlLoader = new FXMLLoader(App.class.getResource("main-scene.fxml"));
+    Scene scene = new Scene(fxmlLoader.load(), 1755, 800);
     stage.setTitle("Hello!");
     stage.setScene(scene);
     stage.show();

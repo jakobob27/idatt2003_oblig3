@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="794.0" prefWidth="1755.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <HBox layoutX="26.0" layoutY="25.0" prefHeight="367.0" prefWidth="1010.0">
+         <children>
+            <ImageView fx:id="card1" fitHeight="414.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@2_of_clubs.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card2" fitHeight="414.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@2_of_diamonds.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card3" fitHeight="414.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@2_of_hearts.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card4" fitHeight="414.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@2_of_spades.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="card5" fitHeight="414.0" fitWidth="279.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@2_of_spades.png" />
+               </image>
+            </ImageView>
+         </children>
+      </HBox>
+      <Button fx:id="dealHand" layoutX="1518.0" layoutY="82.0" mnemonicParsing="false" onAction="#dealHand" prefHeight="45.0" prefWidth="146.0" text="Deal Hand" />
+      <Button fx:id="checkHand" layoutX="1518.0" layoutY="183.0" mnemonicParsing="false" onAction="#checkHand" prefHeight="45.0" prefWidth="146.0" text="Check Hand" />
+      <Text layoutX="168.0" layoutY="551.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Sum of the faces:" wrappingWidth="99.13671875" />
+      <Text layoutX="168.0" layoutY="626.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Flush:" wrappingWidth="99.13671875" />
+      <Text layoutX="491.0" layoutY="560.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Card of hearts: " wrappingWidth="99.13671875" />
+      <Text layoutX="491.0" layoutY="626.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Queen of spades: " wrappingWidth="99.13671875" />
+      <TextField fx:id="sumOfFaces" editable="false" layoutX="267.0" layoutY="534.0" prefHeight="25.0" prefWidth="80.0" />
+      <TextField fx:id="flush" editable="false" layoutX="218.0" layoutY="609.0" prefHeight="25.0" prefWidth="80.0" />
+      <TextField fx:id="cardOfHearts" editable="false" layoutX="582.0" layoutY="543.0" prefHeight="25.0" prefWidth="126.0" />
+      <TextField fx:id="queenOfSpades" editable="false" layoutX="590.0" layoutY="609.0" prefHeight="25.0" prefWidth="80.0" />
+   </children>
+</AnchorPane>

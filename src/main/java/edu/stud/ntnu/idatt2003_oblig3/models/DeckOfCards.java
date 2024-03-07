@@ -1,4 +1,4 @@
-package edu.stud.ntnu.idatt2003_oblig3;
+package edu.stud.ntnu.idatt2003_oblig3.models;
 
 import java.util.Random;
 
