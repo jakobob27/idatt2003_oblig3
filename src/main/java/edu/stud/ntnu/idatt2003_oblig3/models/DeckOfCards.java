@@ -13,13 +13,16 @@ public class DeckOfCards extends CardCollection {
   }
 
   public CardHand dealHand(int n) {
-    Random random = new Random();
-    CardHand temp = new CardHand();
-    if (n<1 || n>52) {
+    if (n>size()) {
+      throw new IllegalArgumentException("Not enough cards in the deck");
+    }
+    if (n<1) {
       throw new IllegalArgumentException("Invalid amount of cards to deal");
     }
+    Random random = new Random();
+    CardHand temp = new CardHand();
     for (int i=0; i<n; i++) {
-      PlayingCard randomCard = getCard(random.nextInt(53));
+      PlayingCard randomCard = getCard(random.nextInt(size()));
       temp.addCard(randomCard);
       removeCard(randomCard);
     }

@@ -1,10 +1,12 @@
 package edu.stud.ntnu.idatt2003_oblig3.controllers;
 
+import edu.stud.ntnu.idatt2003_oblig3.App;
 import edu.stud.ntnu.idatt2003_oblig3.models.CardHand;
 import edu.stud.ntnu.idatt2003_oblig3.models.DeckOfCards;
 import edu.stud.ntnu.idatt2003_oblig3.models.PlayingCard;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
 import javafx.scene.control.Button;
@@ -29,12 +31,6 @@ public class MainSceneController {
   private TextField cardOfHearts;
 
   @FXML
-  private Button checkHand;
-
-  @FXML
-  private Button dealHand;
-
-  @FXML
   private TextField flush;
 
   @FXML
@@ -45,17 +41,40 @@ public class MainSceneController {
 
   private CardHand hand;
 
-  private final DeckOfCards deck = new DeckOfCards();
+  private DeckOfCards deck = new DeckOfCards();
 
 
   @FXML
   void checkHand(ActionEvent event) {
+    if (hand==null) {
+      return;
+    }
+    sumOfFaces.setText(String.valueOf(hand.sumOfFaces()));
+    cardOfHearts.setText(hand.cardOfHearts());
+    if (hand.flush()) {
+      flush.setText("Yes");
+    }
+    else {
+      flush.setText("No");
+    }
+
+    if (hand.queenOfSpades()) {
+      queenOfSpades.setText("Yes");
+    }
+    else {
+      queenOfSpades.setText("No");
+    }
 
   }
 
   @FXML
   void dealHand(ActionEvent event) {
-    hand = deck.dealHand(5);
+    try {
+      hand = deck.dealHand(5);
+    } catch (Exception e) {
+      System.out.println(e.getMessage());
+    }
+
     displayCards();
   }
 
@@ -69,20 +88,23 @@ public class MainSceneController {
     images.add(card5);
     for (int i = 0; i < hand.size(); i++) {
       String suit;
-      if (hand.getCard(i).getSuit()=='C') {
+      if (hand.getCard(i).getSuit() == 'C') {
         suit = "clubs";
-      }
-      else if (hand.getCard(i).getSuit()=='S') {
+      } else if (hand.getCard(i).getSuit() == 'S') {
         suit = "spades";
-      }
-      else if (hand.getCard(i).getSuit()=='H') {
+      } else if (hand.getCard(i).getSuit() == 'H') {
         suit = "hearts";
-      }
-      else {
+      } else {
         suit = "diamonds";
       }
-      images.get(i).setImage(new Image("@" + hand.getCard(i) + "_of_" + suit));
+      String imageName = hand.getCard(i).getFace() + "_of_" + suit + ".png";
+      String path = Objects.requireNonNull(App.class.getResource(imageName)).toString();
+      images.get(i).setImage(new Image(path));
     }
   }
 
+  public void shuffleDeck(ActionEvent actionEvent) {
+    deck = new DeckOfCards();
+    System.out.println("Shuffled the cards");
+  }
 }

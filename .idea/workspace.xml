@@ -5,69 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebde898d-08f8-4ab7-81e7-ef4a8d0d0833" name="Changes" comment="DeckOfCards now uses CardCollection-methods instead of interacting with the field cardCollection directly">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/10_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/10_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/10_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/10_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/11_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/11_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/11_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/11_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/12_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/12_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/12_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/12_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/13_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/13_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/13_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/13_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/1_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/1_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/1_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/1_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/2_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/2_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/2_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/2_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/3_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/3_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/3_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/3_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/4_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/4_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/4_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/4_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/5_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/5_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/5_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/5_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/6_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/6_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/6_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/6_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/7_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/7_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/7_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/7_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/8_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/8_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/8_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/8_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/9_of_clubs.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/9_of_diamonds.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/9_of_hearts.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/9_of_spades.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/main-scene.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/models/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/CardCollection.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/models/CardCollection.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/CardHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/models/CardHand.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/DeckOfCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/models/DeckOfCards.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/HelloController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/controllers/MainSceneController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/PlayingCard.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/models/PlayingCard.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/controllers/MainSceneController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/controllers/MainSceneController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/models/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/models/CardHand.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/models/CardHand.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/models/DeckOfCards.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/edu/stud/ntnu/idatt2003_oblig3/models/DeckOfCards.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/module-info.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/main-scene.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/edu/stud/ntnu/idatt2003_oblig3/main-scene.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,12 +22,17 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="module-info" />
+        <option value="Class" />
       </list>
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="35fe39fdb9ea3c846b529deaac09949f9d41050f" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectColorInfo">{
@@ -119,14 +69,18 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Jakob\Documents\Programmering 2\idatt2003_oblig3\src\main\resources\edu\stud\ntnu\idatt2003_oblig3" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="edu.stud.ntnu.idatt2003_oblig3" />
+      <recent name="" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.App">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="edu.stud.ntnu.idatt2003_oblig3.models.App" />
+      <option name="MAIN_CLASS_NAME" value="edu.stud.ntnu.idatt2003_oblig3.App" />
       <module name="idatt2003_oblig3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.stud.ntnu.idatt2003_oblig3.models.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,7 +93,7 @@
       <module name="idatt2003_oblig3" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="edu.stud.ntnu.idatt2003_oblig3.models.*" />
+          <option name="PATTERN" value=".*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
